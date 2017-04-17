@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb-base",
+    "plugins": ["import"],
+
+    "globals": {
+        "firebase": false
+    },
+
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "max-len": ["error", 140, { "ignoreComments": true }]
+    }
+}
